@@ -9,3 +9,4 @@ export const generateToken = (id) => {
 export const verifyToken = (token) => {
     return jwt.verfiy(token, process.env.JWT_SECRET);
 };
+// asdqweq
